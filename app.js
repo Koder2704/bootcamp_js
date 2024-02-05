@@ -8,14 +8,13 @@ function submitForm() {
 
     if (email.value && password.value) {
         alert(`Hello ${email.value}, welcome back !`);
-    } else {
+    } else if (!email.value && !password.value) {
+        alert('Fill all the fields before submitting !');
+
         if (!email.value) {
             alert('Email field is required !');
         } else if (!password) {
             alert('Password field is required !');
-        }
-        else if (!email.value && !password.value) {
-            alert('Fill all the fields before submitting !');
         }
     }
 }
