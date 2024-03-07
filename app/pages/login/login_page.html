@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Authentication System</title>
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <main>
+
+        <!-- Image container -->
+        <div class="image_container">
+            <img src="../../../assets/images/wallpaperflare.com_wallpaper(5).jpg" alt="">
+        </div>
+
+        <!-- Form container -->
+        <form class="form_container" onsubmit="login()">
+            <div class="form_header">
+                <h2>Welcome !</h2>
+                <h4>
+                    This is a basic authentication system
+                </h4>
+            </div>
+            <div class="form_field">
+                <h3 class="form_label">Username</h3>
+                <input class="form_input" id="username" name="username" value="" required type="text" placeholder="Enter your username">
+            </div>
+
+            <div class="form_field">
+                <h3 class="form_label">Password</h3>
+                <input class="form_input" id="password" name="password" value="" required type="password" placeholder="Should have a min of 4 characteres">
+            </div>
+
+
+            <input class="form_login__button" type="submit" value="Login">
+            <br>
+            <a class="form_register__button" href="../register/register_page.html">Register</a>
+        </form>
+    </main>
+
+    <script src="../../app.js"></script>
+    <script  src="login.js"></script>
+
+</body>
+
+</html>

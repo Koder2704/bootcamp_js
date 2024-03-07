@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logout_button {
+    text-decoration: none;
+    color: #ae3ef4;
+    border: solid 2px #ae3ef4;
+    width: 100%;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 6px;
+    font-size: .9rem;
+    font-weight: bold;
+}
