@@ -17,7 +17,7 @@ export default function NavBarComponent() {
         role: ''
     });
 
-    const [newNotificationCount, setNewNotificationCount] = React.useState(0);
+    // const [newNotificationCount, setNewNotificationCount] = React.useState(0);
 
     React.useEffect(() => {
         const storedUser = localStorage.getItem(STORAGE_KEY);

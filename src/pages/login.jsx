@@ -102,14 +102,7 @@ export default function LoginPage() {
       alert(error.message);
     }
   }
-
-  // Logout functionality:
-  // Fonctionnalité de déconnexion.
-  const logout = () => {
-    setAuthenticatedUser({});
-    localStorage.removeItem(STORAGE_KEY);
-  }
-
+  
   return (
     <main className='bg-gradient-to-b from-blue-400 to-purple-400 w-full h-screen flex justify-center items-center'>
       <form className='bg-white rounded-md p-6 min-h-[40%] max-w-[24%] w-full flex flex-col items-center' onSubmit={login}>

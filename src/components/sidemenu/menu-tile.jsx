@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function MenuTileComponent({ item }) {
-    let activeClass = 'bg-gray-200  rounded-lg';
+    
     return (
         <div className='my-1 py-2 px-4 flex items-center gap-4 w-full'>
             <item.Icon />

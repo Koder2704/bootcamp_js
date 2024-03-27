@@ -4,7 +4,7 @@ import MenuTileComponent from './menu-tile'
 
 export default function MenuComponent() {
 
-    const [clicked, setClicked] = React.useState(false);
+    // const [clicked, setClicked] = React.useState(false);
 
     // const handleItemSelection = (index) => {
     //     menuItems.find(item => {

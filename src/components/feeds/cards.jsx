@@ -5,7 +5,7 @@ import CardItemComponent from './card-item'
 export default function CardsComponent() {
   return (
     <div className='flex flex-wrap w-full'>
-        {trendings.slice(0, 4).map((item, index) => <CardItemComponent key={index} item={item} />)}
+        {trendings.slice(0, 4).map((item, index) => <CardItemComponent id={index} key={index} item={item} />)}
     </div>
   )
 }

@@ -57,12 +57,12 @@ export default function DashboardPage() {
           <div className='min-h-[320px] min-w-min relative'>
             <h4 className='font-bold text-xl text-white absolute bottom-24 left-8'>Youtube Channels</h4>
             <p className='font-medium text-sm text-white absolute bottom-12 w-[26rem] left-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sed omnis saepe aspernatur fugit adipisci.</p>
-            <img src={one} alt="Image" className='w-full max-h-[300px] rounded-lg' />
+            <img src={one} alt="Alt" className='w-full max-h-[300px] rounded-lg' />
           </div>
           <div className='min-h-[320px] min-w-min relative'>
             <h4 className='font-bold text-xl text-white absolute bottom-24 left-8'>Youtube Channels</h4>
             <p className='font-medium text-sm text-white absolute bottom-12 w-[26rem] left-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sed omnis saepe aspernatur fugit adipisci.</p>
-            <img src={two} alt="Image" className='w-full max-h-[300px] rounded-lg' />
+            <img src={two} alt="Alt" className='w-full max-h-[300px] rounded-lg' />
           </div>
         </div>
       </section>
