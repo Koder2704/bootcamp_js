@@ -1,0 +1,38 @@
+To succeed a useReducer, follow theses steps:
+
+1. instanciate the useReducer hook like so:
+    const [state, dispatch] = useReducer(reducerFunction, initialValues);
+
+    - reducerFunction: Is the reducer function in which you will define
+    your events
+    - initialValues: Is the initial state of your state object where you
+    give the initial values to your state properties.
+
+2. create your reducer function and pass two arguments: 
+    - The previous state: Which will contain all the state properties,
+    before the next execution of the reducer function.
+    - action: is the object which will holds the event type we want to 
+    trigger with our reducer function.
+
+    ex:
+    function customReducer(previousState, action) {
+        switch(action.type) {
+            case 'EVENT TYPE 1':
+                // instructions...
+                return // newStateValues
+            case 'EVENT TYPE 2':
+                // instructions...
+                return // newStateValues
+            .
+            .
+            .
+            default // Meaning that there's no event match
+                // throw a custom error - return the state - etc...
+        }
+    }
+
+
+3. Use the dispatch function to update the state properties values:
+    Ex: To update a value of a counter, having the event type 'INCREMENT',
+    we can use the dispatch function in the following way:
+    dispatch({ type: 'INCREMENT' });
